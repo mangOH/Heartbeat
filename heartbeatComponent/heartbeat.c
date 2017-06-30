@@ -29,13 +29,11 @@ static void LedTimer
 {
     if (LedOn)
     {
-        //LE_DEBUG("turn off LED due to timer");
         mangoh_led_Deactivate();
         LedOn = false;
     }
     else
     {
-        //LE_DEBUG("turn on LED due to timer");
         mangoh_led_Activate();
         LedOn = true;
     }
