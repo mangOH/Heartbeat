@@ -2,8 +2,8 @@ requires:
 {
     api:
     {
-        mangoh_button = ${LEGATO_ROOT}/interfaces/le_gpio.api
-        mangoh_led = ${LEGATO_ROOT}/interfaces/le_gpio.api
+        mangoh_button = le_gpio.api
+        mangoh_led = le_gpio.api
     }
 }
 
